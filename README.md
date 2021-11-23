@@ -33,5 +33,13 @@
 **需要注意的点**
 
 1. 16GB 及以上的容量(镜像+分区空间都在 12GB 左右)
-2. 非杂牌 U 盘，最好大品牌(用的黑片回收颗粒，读写速度堪忧，镜像刻录和安装系统时得等个半天)
+2. 非杂牌 U 盘(用的黑片回收颗粒，读写速度堪忧，镜像刻录和安装系统时得等个半天)，最好大品牌
+3. 使用 [balenaEtcher](https://www.balena.io/etcher/) 刻录镜像到 U 盘，好处是开源，macOS, Windows, Linux 系统通用
 
+
+
+## B460I BIOS 升级(可选)
+
+1. 前往 [七彩虹B460I 官网主板技术支持](http://colorful.cn/product_show.aspx?mid=84&id=833)，下载最新的 `BIOS` 文件
+
+   <img src="./colorful-bios-support.png" alt="bios-download" style="zoom:50%;" />
