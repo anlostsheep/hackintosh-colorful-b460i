@@ -1,16 +1,27 @@
+[TOC]
+
 # hackintosh-colorful-b460i
 
 > 七彩虹 B460I CVN Forzen + Intel-i5-10400 + AMD Radeon RX560 黑苹果 EFI 制作分享
 
+# 硬件配置
+
+| CPU  | [Intel i5-10400](https://ark.intel.com/content/www/cn/zh/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html?wapkw=10400) |
+| ---- | ------------------------------------------------------------ |
+| 主板 | [七彩虹 B460I CVN Forzen V20](http://colorful.cn/product_show.aspx?mid=84&id=833) |
+| 显卡 | [Dataland RX560D X-Serial](http://www.dataland.com.cn/prod_view.aspx?nid=3&typeid=134&id=905) |
+| 网卡 | [Intel AX200](https://ark.intel.com/content/www/cn/zh/ark/products/189347/intel-wifi-6-ax200-gig.html?wapkw=ax200) |
+| 机箱 | [超频三蜂鸟1](https://item.jd.com/10035164346464.html#crumb-wrap) |
 
 
-## 引导方式
+
+## 一、引导方式
 
 > 采用 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 方式引导，版本为 `0.7.5 RELEASE`
 
 
 
-## 镜像
+## 二、镜像
 
 > macOS 镜像根据个人喜好获取或制作，建议选择的 macOS 镜像系统在 Bigsur 11.2.3 及以下，方便后续定制 USB 端口操作
 
@@ -24,7 +35,7 @@
 
 
 
-## U 盘刻录
+## 三、U 盘刻录
 
 **需要注意的点**
 
@@ -34,7 +45,7 @@
 
 
 
-## B460I BIOS 升级(可选)
+## 四、B460I BIOS 升级(可选)
 
 > 最新版的 `BIOS` 支持更多选项 
 
@@ -56,11 +67,13 @@
 
 
 
-## `BIOS` 调节选项
+## 五、 `BIOS` 调节选项
+
+>  某些选项 B460I 主板没有，可能后续升级的 `BIOS` 中有，统一列出说明
+
+
 
 **OC 推荐关闭项**
-
-> 某些选项 B460I 主板没有，可能后续升级的 `BIOS` 中有，统一列出说明
 
 1. Fast Boot: 快速启动
 
@@ -103,3 +116,50 @@
 10. CFG Lock: CFG 锁
 
     - OC -> CFG Lock -> Disabled
+
+
+
+**OC 推荐开启的选项**
+
+1. VT-x: CPU的硬件虚拟化技术的一种指令集
+   - B460I 没有此项
+2. Above 4G decoding: 
+   - B460I 没有此项
+3. DVMT: 动态显存分配技术
+   - Advanced -> Advanced -> PCH Configuration -> Primary Display: PEG
+   - Advanced -> Advanced -> PCH Configuration -> Internal Graphic: Enabled
+   - Advanced -> Advanced -> PCH Configuration -> IGFX Memory Size: 128M(或以上)
+   - Advanced -> Advanced -> PCH Configuration -> DVMT Total Gfx Mem: 128M(或以上)
+4. XMP: 内存超频功能
+   - OC -> Memory Configuration -> Memory Profile: XMP Profile1
+5. XHCI Hand-off:
+   - Advanced -> Advanced -> USB Configuration -> XHCI Hand-off: Enabled
+6. SATA Mode: AHCI
+   - Advanced -> Advanced -> SATA Configuration -> SATA Mode Selection: AHCI
+
+
+
+## 六、安装过程
+
+> 略……
+
+
+
+## 七、EFI 食用方式
+
+1. 下载 `RELEASE` 中的 EFI-share 文件并改名为 EFI 文件
+
+2. 使用 [Propertree](https://github.com/corpnewt/ProperTree) 或者 [OCAT](https://github.com/ic005k/QtOpenCoreConfig) 打开 EFI/OC/config.plist 文件
+
+3. 使用 [genSMBIOS](https://github.com/corpnewt/GenSMBIOS) 生成机器对应的三码信息放入到如下图样例所示：
+
+   <img src="./platform-info.png" alt="platform" style="zoom:50%;" />
+
+​		又或者使用 OCAT 自动生成三码:
+
+​		<img src="./ocat-platform.png" alt="ocat-platform" style="zoom:50%;" />
+
+4. 放 EFI 文件放入安装 macOS 的磁盘 EFI 分区的根目录下即可
+
+---
+
