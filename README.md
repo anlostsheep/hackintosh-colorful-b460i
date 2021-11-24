@@ -86,7 +86,7 @@
 
 > 采用 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 方式引导，版本为 `0.7.5 RELEASE`
 
-
+---
 
 ## 镜像
 
@@ -100,7 +100,7 @@
 
    > 好处是纯净，通过自己的能力制作，更容易获得成就感(更好地装13)，细致教程可以参考 [tonymacx86](https://www.tonymacx86.com/threads/unibeast-install-macos-catalina-on-any-supported-intel-based-pc.285366/#download) 的这篇以 `macOS Catalina` 为例的文章自行尝试
 
-
+---
 
 ## U 盘刻录
 
@@ -110,7 +110,7 @@
 2. 非杂牌 U 盘(用的黑片回收颗粒，读写速度堪忧，镜像刻录和安装系统时得等个半天)，最好大品牌
 3. 使用 [balenaEtcher](https://www.balena.io/etcher/) 刻录镜像到 U 盘，好处是开源，macOS, Windows, Linux 系统通用
 
-
+---
 
 ## B460I BIOS 升级(可选)
 
@@ -132,7 +132,7 @@
 
 4. 升级完成会自动重启，重新进入 `BIOS` 检查 `BIOS` 的版本是否已经更改为最新的
 
-
+---
 
 ## `BIOS` 调节选项
 
@@ -204,13 +204,13 @@
 6. SATA Mode: AHCI
    - Advanced -> Advanced -> SATA Configuration -> SATA Mode Selection: AHCI
 
-
+---
 
 ## 安装过程
 
 > 略……
 
-
+---
 
 ## EFI 食用方式
 
