@@ -27,6 +27,10 @@
 
 ## 主要功能
 
+### 关于本机
+
+<img src="./images/about-this-computer.png" alt="about-this-computer" style="zoom:50%;" />
+
 ### CPU 睿频
 
 <img src="./images/cpu-turbo.png" alt="cpu-turbo" style="zoom:50%;" />
