@@ -17,6 +17,10 @@
 
 ## 硬件外观
 
+<img src="./images/appearance4.png" alt="appearance4" style="zoom:50%;" />
+
+<img src="./images/appearance5.png" alt="appearance5" style="zoom:50%;" />
+
 <img src="./images/appearance3.png" alt="appearance3" style="zoom:50%;" />
 
 <img src="./images/appearance2.png" alt="appearance2" style="zoom:50%;" />
