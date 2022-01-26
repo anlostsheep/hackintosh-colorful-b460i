@@ -7,7 +7,7 @@
 # 硬件配置
 
 | CPU  | [Intel i5-10400](https://ark.intel.com/content/www/cn/zh/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html?wapkw=10400) |
-| ---- | ------------------------------------------------------------ |
+| :--- | :----------------------------------------------------------- |
 | 主板 | [七彩虹 B460I CVN Forzen V20](http://colorful.cn/product_show.aspx?mid=84&id=833) |
 | 内存 | [英睿达 3000MHz 8Gx2](https://item.jd.com/100007251677.html#crumb-wrap) |
 | 硬盘 | [铠侠 RC10 1TB]()                                            |
@@ -17,11 +17,11 @@
 
 ## 硬件外观
 
-<img src="./images/appearance1.png" alt="appearance1" style="zoom:50%;" />
+<img src="https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-35-41-IMG_2954.jpeg" alt="IMG_2954" style="zoom:70%;" />
 
-<img src="./images/appearance2.png" alt="appearance2" style="zoom:50%;" />
+<img src="https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-44-45-IMG_2643.jpeg" alt="IMG_2643" style="zoom:50%;" />
 
-<img src="./images/appearance3.png" alt="appearance3" style="zoom:50%;" />
+![appearance1](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-47-05-appearance1.jpg)
 
 ---
 
@@ -29,53 +29,53 @@
 
 ### 关于本机
 
-<img src="./images/about-this-computer.png" alt="about-this-computer" style="zoom:50%;" />
+![about-this-computer](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-47-27-about-this-computer.png)
 
 ### CPU 睿频
 
-<img src="./images/cpu-turbo.png" alt="cpu-turbo" style="zoom:50%;" />
+<img src="https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-47-43-cpu-turbo.png" alt="cpu-turbo" style="zoom:50%;" />
 
 ### 核显加速
 
-<img src="./images/igpu-speed.png" alt="igpu-speed" style="zoom:50%;" />
+![egpu](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-47-59-egpu.png)
 
 ### 千兆网卡
 
-<img src="./images/ethernet.png" alt="ethernet" style="zoom:50%;" />
+![ethernet](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-48-15-ethernet.png)
 
 ### WIFI
 
-<img src="./images/wifi.png" alt="wifi" style="zoom:50%;" />
+<img src="https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-48-27-wifi.png" alt="wifi" style="zoom:50%;" />
 
 ### 蓝牙
 
-<img src="./images/bluetooth.png" alt="bluetooth" style="zoom:50%;" />
+![bluetooth](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-48-39-bluetooth.png)
 
 ### 声卡
 
 > ALC layoutID 为 7，平时基本不用主板的音频接口就没有音箱外接显示了
 
-<img src="./images/audio.png" alt="audio" style="zoom:50%;" />
+![audio](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-48-50-audio.png)
 
 ### 独立显卡
 
 > 实际上我使用的是迪兰 RX460 X-Serial 896 流处理器版，刷了蓝宝石 RX560 1024 流处理器的 [VBIOS](https://www.techpowerup.com/vgabios/192320/sapphire-rx560-4096-170419)，原则上只要是显存颗粒是镁光类型的 400/500 系 AMD 显卡都可以刷
 
-<img src="./images/egpu.png" alt="egpu" style="zoom:50%;" />
+![egpu](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-49-19-egpu.png)
 
 ### USB 端口定制
 
 > USB 的定制根据机箱的不同可能不通用，我的机箱上仅有一个 USB3.0 接口为 SS06，预留了两个 SS07 及 SS08 为机箱上有 2-3个 USB3.0 接口的机箱通用，如果所使用的机箱接口还有 USB2.0，需要取舍自己需要的接口重新定制
 
-<img src="./images/usb-port.png" alt="usb-port" style="zoom:50%;" />
+![usb-port](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-49-31-usb-port.png)
 
 ### iCloud
 
-<img src="./images/iCloud.png" alt="iCloud" style="zoom:50%;" />
+![iCloud](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-49-41-iCloud.png)
 
 ### iMessage
 
-<img src="./images/imessage.png" alt="imassage" style="zoom:50%;" />
+![imessage](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-49-57-imessage.png)
 
 ### 其他无法展示的功能
 
@@ -122,17 +122,17 @@
 
 1. 前往 [七彩虹B460I 官网主板技术支持](http://colorful.cn/product_show.aspx?mid=84&id=833)，下载最新的 `BIOS` 文件
 
-   <img src="./images/colorful-bios-support.png" alt="bios-download" style="zoom:50%;" />
+   ![colorful-bios-support](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-50-49-colorful-bios-support.jpg)
 
   2.   下载完成后得到一个 `zip` 文件，解压后得到如下图所示文件:
 
-       <img src="./images/bios-file-unzip.png" alt="bios-files" style="zoom:50%;" />
+       ![bios-file-unzip](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-51-08-bios-file-unzip.png)
 
 3. 将上一步中解压得到的文件夹放入 `FAT32` 格式的 U 盘中，然后重启进入 `BIOS`，关闭 `BIOS` 中的 `Advanced` -> `PCH Configuration` -> `ME Control` 和 `Boot` -> `BIOS Write Protect` 为下一步更新 `BIOS` 做准备，`F10` 保存重新进入 `BIOS`
 
 4. 找到以下界面中描述的选项，`BIOS` 文件选择 U 盘中的 `bin` 文件，点击 update 升级，升级前确保机器不会被断电：
 
-   <img src="./images/bios-update-action.png" alt="biso-update" style="zoom:50%;" />
+   ![bios-update-action](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-51-17-bios-update-action.png)
 
 4. 升级完成会自动重启，重新进入 `BIOS` 检查 `BIOS` 的版本是否已经更改为最新的
 
@@ -224,9 +224,9 @@
 
 3. 使用 [genSMBIOS](https://github.com/corpnewt/GenSMBIOS) 生成机器对应的三码信息放入到如下图样例所示：
 
-   <img src="./images/platform-info.png" alt="platform" style="zoom:50%;" />
+   ![platform-info](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-51-43-platform-info.png)
    
-   又或者使用 OCAT 自动生成三码:<img src="./images/ocat-platform.png" alt="ocat-platform" style="zoom:50%;" />
+   又或者使用 OCAT 自动生成三码:![ocat-platform](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2022/01/27/00-51-56-ocat-platform.png)
 
 4. 放 EFI 文件放入安装 macOS 的磁盘 EFI 分区的根目录下即可
 
