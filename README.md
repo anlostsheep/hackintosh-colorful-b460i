@@ -4,6 +4,19 @@
 
 > 七彩虹 B460I CVN Forzen + Intel-i5-10400 + AMD Radeon RX560 黑苹果 EFI 制作分享
 
+
+
+## 更新日志
+
+### 2022-02-14
+
+1. 更新主板 `BIOS` 为 [1006](http://colorful.cn/uploads/common/2022/01/20220119155102546520.zip) 版本
+2. 更新 `OpenCore` 引导为 [0.7.8-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/download/0.7.8/OpenCore-0.7.8-RELEASE.zip)
+
+## 2021-11-23
+
+1. 完善初始指导文档
+
 # 硬件配置
 
 | CPU  | [Intel i5-10400](https://ark.intel.com/content/www/cn/zh/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html?wapkw=10400) |
