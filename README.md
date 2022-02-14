@@ -10,6 +10,10 @@
 
 ### 2022-02-14
 
+1. 使用外置主题 [BsxOc1](https://github.com/blackosx/BsxOc1) 并添加主板硬件背景图
+
+### 2022-02-14
+
 1. 更新主板 `BIOS` 为 [1006](http://colorful.cn/uploads/common/2022/01/20220119155102546520.zip) 版本
 2. 更新 `OpenCore` 引导为 [0.7.8-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/download/0.7.8/OpenCore-0.7.8-RELEASE.zip)
 
