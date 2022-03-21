@@ -8,6 +8,13 @@
 
 ## 更新日志
 
+### 2022-03-21
+
+> 适配 macOS 12.x 以上
+
+1. 更新 `OpenCore` 引导版本为 [0.7.9-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.9)
+2. **更新 [itlwm](https://github.com/OpenIntelWireless/itlwm) 无线网卡驱动为 [v2.1.0_stable_Monterey](https://github.com/OpenIntelWireless/itlwm/releases/download/v2.1.0/AirportItlwm_v2.1.0_stable_Monterey.kext.zip)**（使用 BigSur 版本的同学请使用 [v2.1.0_stable_BigSur](https://github.com/OpenIntelWireless/itlwm/releases/download/v2.1.0/AirportItlwm_v2.1.0_stable_BigSur.kext.zip)）
+
 ### 2022-02-14
 
 1. 使用外置主题 [BsxOc1](https://github.com/blackosx/BsxOc1) 并添加主板硬件背景图
