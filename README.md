@@ -8,6 +8,11 @@
 
 ## 更新日志
 
+### 2022-03-23
+
+1. 增加 [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) 变频，使用 [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend) 生成最大性能变频模式(需要节能模式的同学自行生成替换即可)
+2. 修正 `Msic` -> `Security` -> `SecureBootModel` 为 `j185` 
+
 ### 2022-03-21
 
 > 适配 macOS 12.x 以上
