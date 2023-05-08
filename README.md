@@ -8,6 +8,13 @@
 
 ## 更新日志
 
+### 2023-05-08
+> OC 版本为 `0.9.1-RELEASE`, 支持 macOS Ventura 13.x 以上
+
+1. 更新主板 BIOS 至 [1007版本](https://download.colorful.cn/EnDownload/MotherBroard/2022/Intel%20400/BIOS/CVN%20B460I%20GAMING%20FROZEN%20V20/CVN%20B460I%20GAMING%20FROZEN%20V20-1007.zip), 主板默认开启 ResizeBar, `config.plist` 中调整 `ResizeAppleGpuBars` 为 `0`
+2. 调整 `wifi` 驱动为 [itlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases/download/v2.1.0/itlwm_v2.1.0_stable.kext.zip), 主要避免的问题为 Apple 的 IO80211 系列驱动在 intel 网卡上表现极其不稳定，且每个系统大版本更新都有可能重写协议，需搭配 [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/download/v1.4.1/HeliPort.dmg) App 一起使用
+3. 调整蓝牙驱动为 [IntelBluetoothFirmware.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#intelbluetoothfirmware) + [IntelBTPatcher](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#intelbtpatcher) 去除 [IntelBluetoothInjector.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#intelbluetoothinjector), macOS Montery 12.x 版本以后蓝牙协议重写，Intel 的网卡蓝牙经常断连及出现宗卷不匹配问题(无解，想要完美只能更换免驱网卡)，可以尝试杀掉蓝牙进程让其自动重启: `sudo pkill bluetoothd`, 或直接重启电脑
+
 ### 2022-03-23
 
 1. 增加 [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) 变频，使用 [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend) 生成最大性能变频模式(需要节能模式的同学自行生成替换即可)
