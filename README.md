@@ -12,8 +12,8 @@
 > OC 引导版本为 `0.9.1-RELEASE`, 支持系统版本 `macOS Ventura 13.x`
 
 1. 更换 `Intel` 无线网卡 `AX200` 为博通 `BCM94360CS2`
-   ![无线网卡图例](https://note.youdao.com/yws/public/resource/41afc9e606325199e4d551caa65a78bf/xmlnote/WEBRESOURCE48ad83a7468fa0a00fd18c983283d2b2/38571)
-   ![系统网卡信息](https://note.youdao.com/yws/public/resource/41afc9e606325199e4d551caa65a78bf/xmlnote/WEBRESOURCEfd4704981ee78f5cd091c2405c8f29a0/38573)
+   ![无线网卡图例](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2023/IMG_4491.jpeg)
+   ![系统网卡信息](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2023/2023-5-14%2012.49.jpeg)
 3. 去除 `Intel` 无线网卡 kext
 
 ### 2023-05-08
