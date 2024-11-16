@@ -8,6 +8,14 @@
 
 ## 更新日志
 
+### 2024-11-16
+> OC 引导版本为 `1.0.2-RELEASE`, 支持系统版本为 `macOS Sequioa 15.x`
+
+1. 升级显卡为 `AMD RX6600XT`
+
+   ![AMDRX6600XT](https://gitee.com/anlostsheep/infinity-images/raw/master/uPic/2024/20241116/IMG_8023.jpeg)
+3. 增加 `macOS 14.x` 以上驱动旧博通网卡 `kext`，升级后需使用 Open-Core Patcher 安装补丁
+
 ### 2023-05-15
 > OC 引导版本为 `0.9.1-RELEASE`, 支持系统版本 `macOS Ventura 13.x`
 
