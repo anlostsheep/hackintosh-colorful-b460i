@@ -1,3 +1,5 @@
+
+
 [TOC]
 
 # hackintosh-colorful-b460i
@@ -9,7 +11,7 @@
 ## 更新日志
 
 ### 2024-11-16
-> OC 引导版本为 `1.0.2-RELEASE`, 支持系统版本为 `macOS Sequioa 15.x`
+> OC 引导版本为 `1.0.2-RELEASE`, 支持系统版本为 `macOS Sequoia 15.x`
 
 1. 升级显卡为 `AMD RX6600XT`
 
@@ -283,4 +285,3 @@
 4. 放 EFI 文件放入安装 macOS 的磁盘 EFI 分区的根目录下即可
 
 ---
-
